@@ -271,15 +271,15 @@ h3 {
   }
 
   .hero-subtext {
-    font-size: calc(1em + 0.75vw);
+    font-size: calc(1em + 0.5vw);
   }
 
   .custom-large-text {
-    font-size: calc(1.5em + 1.5vw);
+    font-size: calc(1.5em + 1vw);
   }
 
   .hero-subtext-shoveling {
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(1em + 0.25vw);
   }
 
   .learn-more {
