@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>J-Mow Lawn Care</title>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="main-container container">
+      <div class="header-container pt-5 pb-4 ">
+        <div class="row align-items-center pt-2 pb-2">
+          <!-- J-Mow Lawn Care - Name and Logo -->
+
+          <div class="logo col-md-8 text-start text-md-left pl-4">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/images/lawn-mower.png"
+                alt=""
+                class="img-fluid custom-width d-inline-block align-center"
+                style="margin-right: 10px"
+              />
+              J-MOW <span class="logo-text"> Lawn Care</span></a
+            >
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-md-4 d-flex justify-content-end">
+            <div class="social-media">
+              <p class="mb-0 d-flex">
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center me-3"
+                >
+                  <span class="fa fa-facebook"
+                    ><i class="sr-only">Facebook</i></span
+                  >
+                </a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center me-3"
+                >
+                  <span class="fa fa-twitter"
+                    ><i class="sr-only">Twitter</i></span
+                  >
+                </a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                >
+                  <span class="fa fa-instagram"
+                    ><i class="sr-only">Instagram</i></span
+                  >
+                </a>
+              </p>
+            </div>
+          </div>
+          <!-- end social media -->
+        </div>
+      </div>
+      <!-- start nav -->
+      <nav class="navbar navbar-expand-lg navbar-dark" id="jmo-navbar">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#jmo-nav"
+            aria-controls="jmo-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="jmo-nav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END nav -->
+
+      <!-- hero area with image and text overlay-->
+      <main>
+        <div class="hero-container position-relative"> 
+          <img src="/images/introlawn.jpg" alt="Lawn Care" class=" hero-img img-fluid w-100"> 
+          <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-start align-items-start text-white" > 
+            <h3 class="hero-subtext custom-color text-uppercase fw-bolder">Welcome to J-MOW Lawn Care</h3>
+            <h1 class="hero-text custom-large-text lh-2 text-start">Quick & affordable lawn care <br> for Anthem residents</h1> 
+            <p class="hero-subtext-shoveling pt-3 text-center">We shovel snowy driveways too!</p>
+            <button type="button" class="learn-more btn custom-color" style="--bs-btn-font-weight: 500;">Learn More ></button>
+          </div>
+        </div>
+      <!-- end hero area -->
+
+      <!-- Services section with cards -->
+      <section class="services-section py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <div class="circle-bg mx-auto d-flex align-items-center justify-content-center">
+                  <img src="/images/lawn-mower-bw.png" class="card-img-top" alt="Service 3">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lawn mowing</h5>
+                  <p class="card-text">Affordable and quick lawn mowing service by a reliable high school resident, keeping your yard tidy and neat.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <div class="circle-bg mx-auto d-flex align-items-center justify-content-center">
+                  <img src="/images/grass-cutter.png" class="card-img-top" alt="Service 3">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Weeding & Edging</h5>
+                  <p class="card-text">Is a quick mow not enough? Do you have pesky weeds? We can take care of those and tidy up the edges of your yard!</p>
+                 
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <div class="circle-bg mx-auto d-flex align-items-center justify-content-center">
+                  <img src="/images/shovel.png" class="card-img-top" alt="Service 3">
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Snow Removal</h5>
+                  <p class="card-text">Don't go out in the cold and throw out your back! Let us come and clear your driveway and sidewalk so the HOA stays out of your inbox!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Services section with cards -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>    
+    <script
+    src="https://kit.fontawesome.com/a3f11998f4.js"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>
