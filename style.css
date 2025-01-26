@@ -271,7 +271,7 @@ h3 {
   }
 
   .hero-subtext {
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .custom-large-text {
@@ -279,11 +279,12 @@ h3 {
   }
 
   .hero-subtext-shoveling {
-    font-size: calc(1em + 0.25vw);
+    font-size: calc(0.5em + 1vw);
+    padding-top: 0 !important;
   }
 
   .learn-more {
-    font-size: calc(0.875em + 0.25vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .hero-container {
@@ -293,7 +294,7 @@ h3 {
 
 @media (min-width: 576px) and (max-width: 767px) {
   .hero-subtext {
-    font-size: calc(1em + 0.75vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .custom-large-text {
@@ -301,11 +302,12 @@ h3 {
   }
 
   .hero-subtext-shoveling {
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(0.5em + 1vw);
+    padding-top: 0 !important;
   }
 
   .learn-more {
-    font-size: calc(0.875em + 0.5vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .hero-container {
@@ -334,7 +336,7 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hero-subtext {
-    font-size: calc(1em + 1vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .custom-large-text {
@@ -342,11 +344,12 @@ h3 {
   }
 
   .hero-subtext-shoveling {
-    font-size: calc(1em + 0.75vw);
+    font-size: calc(0.5em + 1vw);
+    padding-top: 0 !important;
   }
 
   .learn-more {
-    font-size: calc(0.875em + 0.75vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .hero-container {
@@ -371,7 +374,7 @@ h3 {
   }
 
   .hero-subtext {
-    font-size: calc(1em + 1.25vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .custom-large-text {
@@ -379,11 +382,12 @@ h3 {
   }
 
   .hero-subtext-shoveling {
-    font-size: calc(1em + 1vw);
+    font-size: calc(0.5em + 1vw);
+    padding-top: 0 !important;
   }
 
   .learn-more {
-    font-size: calc(0.875em + 1vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .hero-container {
@@ -403,7 +407,7 @@ h3 {
   }
 
   .hero-subtext {
-    font-size: calc(1em + 1.5vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .custom-large-text {
@@ -411,11 +415,12 @@ h3 {
   }
 
   .hero-subtext-shoveling {
-    font-size: calc(1em + 1.25vw);
+    font-size: calc(0.5em + 1vw);
+    padding-top: 0 !important;
   }
 
   .learn-more {
-    font-size: calc(0.875em + 1vw);
+    font-size: calc(0.5em + 1vw);
   }
 
   .hero-container {
